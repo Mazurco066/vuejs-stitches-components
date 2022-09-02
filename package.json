@@ -2,5 +2,16 @@
   "name": "vuejs-stitches-components",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^2.79.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-vue": "^6.0.0"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.21"
+  },
+  "dependencies": {
+    "@stitches/vue-directive": "^9.0.0-alpha.4"
+  }
 }
