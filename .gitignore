@@ -1,1 +1,9 @@
+# Nodejs
 node_modules
+
+# Vuejs
+dist
+
+# Vuepress Docs
+.cache
+.temp
