@@ -2,14 +2,12 @@
 import { defineClientConfig } from '@vuepress/client'
 
 // Local components
-import InputText from '../../src/components/InputText.vue'
-import InputTextarea from '../../src/components/InputTextarea.vue'
+import plugin from '../../src/index'
 
 // Use local package in doc pages
 export default defineClientConfig({
   enhance({ app }) {
-    app.component('input-text', InputText)
-    app.component('input-textarea', InputTextarea)
+    app.use(plugin)
   },
   setup() {},
   rootComponents: [],

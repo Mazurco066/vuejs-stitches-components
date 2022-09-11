@@ -1,9 +1,13 @@
 // Components
-import components from'./components/index'
+import components from'./presentation/ui/components/index'
+
+// Styles
+import './presentation/styles/index.scss'
 
 // Register components
 const plugin = {
   install (Vue) {
+    // Components
     for (const prop in components) {
       if (components.hasOwnProperty(prop)) {
         const component = components[prop]
@@ -13,5 +17,8 @@ const plugin = {
   }
 }
 
-// Export plugin
-module.exports = { plugin }
+// CommonJS export
+//module.exports = { plugin }
+
+// Derfault ES export
+export default plugin

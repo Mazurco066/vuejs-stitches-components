@@ -109,23 +109,6 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@stitches/css@^9.0.0-alpha.4":
-  version "9.0.0-alpha.8"
-  resolved "https://registry.yarnpkg.com/@stitches/css/-/css-9.0.0-alpha.8.tgz#272133a79baf33331ca66b4b0ced3ae71b916288"
-  integrity sha512-EuKpHng8yYqGxxkPy7IHtLgcdqnHVVtTajDHjxlGhiQeWqGIahYye3KPJnG7NFINhgyf3CpmcZGSJpTMnXU9DQ==
-  dependencies:
-    "@types/node" "^13.11.1"
-    tslib "^1.11.1"
-
-"@stitches/vue-directive@^9.0.0-alpha.4":
-  version "9.0.0-alpha.4"
-  resolved "https://registry.yarnpkg.com/@stitches/vue-directive/-/vue-directive-9.0.0-alpha.4.tgz#d7828c4312069c774643eebf10dad25ccbc61202"
-  integrity sha512-U4NlouGTC8Rci09YwiLzTAhsXmiiQuYqc9b2leyIb3GzGK+3DmTUsNRVLSUvlJ6xBEabc9pvO5vUHrlPT2G7Yw==
-  dependencies:
-    "@stitches/css" "^9.0.0-alpha.4"
-    "@types/node" "^13.11.1"
-    tslib "^1.11.1"
-
 "@types/debug@^4.1.7":
   version "4.1.7"
   resolved "https://registry.yarnpkg.com/@types/debug/-/debug-4.1.7.tgz#7cc0ea761509124709b8b2d1090d8f6c17aadb82"
@@ -179,11 +162,6 @@
   version "18.7.14"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.14.tgz#0fe081752a3333392d00586d815485a17c2cf3c9"
   integrity sha512-6bbDaETVi8oyIARulOE9qF1/Qdi/23z6emrUh0fNJRUmjznqrixD4MpGDdgOFk5Xb0m2H6Xu42JGdvAxaJR/wA==
-
-"@types/node@^13.11.1":
-  version "13.13.52"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.52.tgz#03c13be70b9031baaed79481c0c0cfb0045e53f7"
-  integrity sha512-s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==
 
 "@types/web-bluetooth@^0.0.15":
   version "0.0.15"
@@ -1519,6 +1497,15 @@ sass@^1.54.5:
     immutable "^4.0.0"
     source-map-js ">=0.6.2 <2.0.0"
 
+sass@^1.54.9:
+  version "1.54.9"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.54.9.tgz#b05f14ed572869218d1a76961de60cd647221762"
+  integrity sha512-xb1hjASzEH+0L0WI9oFjqhRi51t/gagWnxLiwUNMltA0Ab6jIDkAacgKiGYKM9Jhy109osM7woEEai6SXeJo5Q==
+  dependencies:
+    chokidar ">=3.0.0 <4.0.0"
+    immutable "^4.0.0"
+    source-map-js ">=0.6.2 <2.0.0"
+
 section-matter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/section-matter/-/section-matter-1.0.0.tgz#e9041953506780ec01d59f292a19c7b850b84167"
@@ -1609,11 +1596,6 @@ ts-debounce@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/ts-debounce/-/ts-debounce-4.0.0.tgz#33440ef64fab53793c3d546a8ca6ae539ec15841"
   integrity sha512-+1iDGY6NmOGidq7i7xZGA4cm8DAa6fqdYcvO5Z6yBevH++Bdo9Qt/mN0TzHUgcCcKv1gmh9+W5dHqz8pMWbCbg==
-
-tslib@^1.11.1:
-  version "1.14.1"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-1.14.1.tgz#cf2d38bdc34a134bcaf1091c41f6619e2f672d00"
-  integrity sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg==
 
 uc.micro@^1.0.1, uc.micro@^1.0.5:
   version "1.0.6"
